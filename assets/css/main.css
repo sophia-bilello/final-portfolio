@@ -405,7 +405,7 @@ h5.major,
 h6.major {
 	padding-bottom: 1em;
 	border-bottom: solid 2px rgba(255, 255, 255, 0.125);
-	margin-top:20px;
+	margin-top: 20px;
 }
 
 h2 {
@@ -4327,6 +4327,14 @@ body.is-preload #banner p {
 }
 
 /*fixes*/
-.align {display: flex;}
 
-.leftSpace {margin-left: 20px;}
+@media screen and (min-width: 800px) {
+
+.align {
+	display: flex;
+}
+
+.leftSpace {
+	margin-left: 20px;
+}
+}
